@@ -1,0 +1,47 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Emprestimo</title>
+    <link rel="stylesheet" href="style.css">
+
+    <link rel="shortcut icon" href="imagens/ico_dinheiro.png" type="image/x-icon">
+</head>
+<body>
+    <div id="container">
+        <h1>CALCULE AGORA SEU FINACEAMENTO IMOBILIARIO!</h1>
+
+        <img src="imagens/teste.png" alt="">
+
+                
+
+    </div>
+    
+
+    <div id="containerCalc">
+        
+        <div class="inputContainer">
+            <h2>VALOR DO IMOVEL</h2>
+            <input type="number" name="imovel" id="imovel" placeholder="IMOVEL">
+        </div>
+        
+        <div class="inputContainer">
+            <h2>NÚMERO DE PRESTAÇÕES</h2>
+            <input type="number" name="prestacoes" id="prestacoes" placeholder="PRESTAÇÕES (MENSAIS)">
+        </div>
+        
+        <div class="inputContainer">
+            <h2>TAXA DE JUROS</h2>
+            <input type="number" name="juros" id="juros" placeholder="JUROS (MENSAL)">
+        </div>
+
+        <button id="botao" onclick="calcular()">CALCULAR</button>
+
+        <div id="resultado"></div>
+
+    </div>
+
+    <script src="script.js"></script>
+</body>
+</html>
